@@ -9,72 +9,63 @@ Creating a global list of EcoEvo-related learned societies
 (If you are reading this on GitHub, you can also see this repository as a webpage [here](https://mlagisz.github.io/EcoEvo_societies_list/)🌍).   
 
 ## 🔖 Background   
-Learned societies — professional organizations that unite researchers and academics — play a crucial role in advancing science, fostering collaboration, and supporting professional development.  
-Globally, thousands of such societies connect scholars in Ecology and Evolutionary biology (Eco-Evo).   
-Yet, no comprehensive or centralised resource currently exists to identify these societies.    
+Review of research code matters:
+- code is flexible, but easy to get wrong,
+- unlike commercial software, it’s rarely tested by anyone but its author,
+- review takes real time from authors and reviewers, so its value needs evidence.
+
+This is particularly relevant now as more journals begin to engage "data editors" and need some concrete research to base directions off of. But what should review cover? A lot has been written and worked on trying to encapsulate best practices around transparency and reproducibility, but comparatively less has been written about evaluating whether code does what the authors both expect and report it to do. We term this "code fidelity". 
+In a pilot program of peer code review conducted within a research consortium in 2026, we found the following: 
+1. Fidelity was rated among the most important criteria for review. 
+2. Fidelity was ranked the hardest to assess, and fewer code bases received a fidelity score from both reviewers than for any other criterion.
+3. The most difficult aspect was locating relevant bits of code for the math/methods written up.
+4. Reviewing for fidelity was evaluated to take the most time, and therefore be among the least feasible to complete. 
+5. Reviewers noted little to no prior experience considering fidelity of code. 
 
 ## 🏹 Aims and approach  
-This project aims to fill a key gap by systematically collecting and curating basic information on learned societies in Ecology and Evolutionary Biology (Eco-Evo) worldwide.  
+This project aims to develop an approach to reviewing for fidelity, and demonstrate its utility by applying it across a sample of papers.
+We have some initial ideas on ways to tackle reviewing for fidelity, but want to use this workshop to gather feedback and co-design this project. 
+
+## Discussion Notes - SORTEE Hackathon 2026
+Discussion 1: Reflections on definitions, our pilot outcomes, and the concept.
+
+Discussion 2: Which methods exactly are we talking about? 
+There are usually a TON of different methods being reported. 
+Do we focus on those relevant to the “key” results?
+Do we pre-construct reference guides for different paper types that highlight which items need to be reviewed? (* this is definitely out of scope, but worth discussing). 
+Not all things in the code will even be reported, are the “gap” items a priority?
+
+Discussion 3: How to identify where in the code relevant sections for review are located
+Living code, e.g. https://rgmoss.pages.gitlab.unimelb.edu.au/malaria-spleen-rbc-loss/articles/model-description.html#model-implementation 
+Is there another type of template that could be developed to guide reviewers to key code lines?
+Annotations in the methods that ref code line numbers?
+Do we create a “map” of the methods first, with an AI or other parser, then check the code against that map manually?
+
+Discussion 4: What is a reasonable end product
+Is the outcome a checklist? 
+A guide for journals for authors? 
+A guide for journals for their data editors?
+Executing our suggestion across the large dataset of papers rather than a demonstrative subset?
+ 
+
 
 ## 🪓 Impact  
-* This project offers a unique opportunity to showcase the diversity of learned societies from non-English-speaking countries.   
-* The list will allow researchers to locate fitting communities as well as meta-researchers to study how societies may or may not act as levers and catalisers of open, reliable and transparent ecology and evolutionary biology.  
-* The list will contribute to reaching out to these societies and establishing connections between SORTEE and diverse researchers globally.    
+We will endeavor to write a publishable manuscript presenting the data collected in this project. Such a manuscript will also be publicly posted on a preprint server (EcoEvoRxiv), and we will make all reasonable attempts to publish it in a journal (e.g. PCI or Peer Community Journal, Open Science Journal). This project will also serve as a forum for generating ideas for future initiatives concerning code review.
 
-## 💎 Team  
-* We have a diverse and open team of early- and mid-career researchers contributing to this project.   
-* Please get in touch if you are interested in contributing to this and/or future projects (see our details below).   
 
 ## 💛 Contributing  
  
 * We invite researchers at any career stage with a background in ecology and/or evolutionary biology and any related disciplines (e.g., botany, zoology, taxonomy, molecular biology, conservation biology, environmental sciences) to contribute to the project. All contributions will be acknowledged. Significant contributions (as outlined below), will warrant co-authorship.   
 * This project has no dedicated funding (i.e., zero budget) and, unfortunately, we cannot compensate project contributors for their time. Instead, we offer an opportunity to become a co-author.   
-* Given the contribution requirements for authorship (described below), there are places for additional authors (in addition to ML and AST, who lead this project).   
-* The final number of authors will depend on the individual contributions warranting authorship. The expected time you may spend on this project is expected to be around 2-20 hours in total, across one year (likely duration of this project), but will depend on the number of societies found for data extraction/checking, the final number of contributors, and their speed/quality of work.   
-* We welcome and actively encourage the participation of researchers from historically underrepresented and marginalized groups, valuing their unique perspectives and experiences as essential contributions to this work.   
+* Given the contribution requirements for authorship (described below), there are places for additional authors (in addition to SMW, EIC, and RM, who lead this project).   
+* The final number of authors will depend on the individual contributions warranting authorship. The expected time you may spend on this project is expected to be around 2-20 hours in total, across one year (likely duration of this project).
 
 For more details on how to contribute and how we deal with recognizing everybody's contributions see our full [Contribution Guide](/CONTRIBUTING.md).  
 
 We expect all project contributors to familiarize themselves and follow our [Code of Conduct](/CODE_OF_CONDUCT.md).  
 
-
-## 🗺 General workflow of the project
-![General workflow](SORTEE2025 societies list_project_workflow.png)   
-
-## 🗺 Genral timeline of the project
-SORTEE2025 societies list_project_timeline
-
-## 📅 Timeline
-![Tentative timeline of the project](SORTEE2025 societies list_project_timeline.png)  
-
-## 🗺 Decision tree for assessing eligibility of a given society
-![General workflow](SORTEE2025 societies list_project_decisiontree.png)
-
-## ☝️ List of international societies from an earlier SORTEE project  
-List of international societies from an earlier SORTEE project is available [here](/LIST_INTERNAT_ECOEVO_SOC.md)   
-
-
 ## 🚉 Current status    
-Data collection ongoing.   
-
-## 🚀 Protocol   
-Final protocol is now publicly registered on [OSF](https://doi.org/10.17605/OSF.IO/E5G9J).   
-
-## 🚚 Supporting information 
-Supporting information for this project will be publicly available at project completion[LINK to be added later].    
-
-## 💻 Data and code files      
-A copy of our final data and code files will be publicly available at project completion [LINK to be added later].     
-
-## ⏰ Code of Conduct   
-We expect all project contributors to familiarize themselves and follow our [Code of Conduct](/CODE_OF_CONDUCT.md).      
-
-## 🎏 Project Leads(s)
-* [Malgorzata (Losia)  Lagisz](https://github.com/mlagisz).  
-* [Alfredo Sánchez-Tójar](https://github.com/ASanchez-Tojar).  
-
-## 🔧 Maintainer(s)
-* [Malgorzata (Losia) Lagisz](https://github.com/mlagisz).   
+Project under development 
 
 ## 🖍️ License 
 This work is licensed under a [Creative Commons Attribution 4.0 International License (cc-by)](/LICENSE.md).   

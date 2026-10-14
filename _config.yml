@@ -6,6 +6,6 @@ gems:
 relative_links:
   enabled: true
   collections: true
-title: "List of EcoEvo societies" 
+title: "Reviewing Code Fidelity" 
 description: Information about the project
 show_downloads: [true] 

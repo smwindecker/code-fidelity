@@ -46,7 +46,7 @@ This Code of Conduct applies in both project and public spaces when an individua
 
 ### 🦾 Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project leads at losialagisz@gmail.com or non-lead contact person, April Robin Martinig at aprilmartinig@hotmail.com. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances, including removal from co-authorship. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.    
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project leads at saras.windecker@thekids.org.au or e.ivimeycook@gmail.com. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances, including removal from co-authorship. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.    
 
 
 ### ⚓ Attribution
